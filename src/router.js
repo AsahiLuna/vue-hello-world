@@ -25,6 +25,11 @@ export default new Router({
       path: '/vue-note',
       name: 'vue-note',
       component: () => import(/* webpackChunkName: "vue-note" */ './views/VueNote.vue')
+    },
+    {
+      path: '/tdd',
+      name: 'tdd',
+      component: () => import(/* webpackChunkName: "vue-note" */ './views/TDD.vue')
     }
   ]
 })
