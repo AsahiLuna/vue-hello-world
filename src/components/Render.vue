@@ -1,14 +1,17 @@
-<template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
-</template>
-
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'render',
+  render: function (createElement) {
+    return createElement(
+      'h' + this.level,
+      this.$slots.default
+    )
+  },
   props: {
-    msg: String
+    level: {
+      type: Number,
+      required: true
+    }
   }
 }
 </script>

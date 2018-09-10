@@ -2,6 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="I will write some components use Vue.js and do the Unit Test."/>
   </div>
 </template>
 
