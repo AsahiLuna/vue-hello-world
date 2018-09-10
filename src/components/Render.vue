@@ -3,7 +3,9 @@ export default {
   name: 'render',
   render: function (createElement) {
     return createElement(
-      'h' + this.level,
+      'h' + this.level, {
+        'class': 'h' + this.level
+      },
       this.$slots.default
     )
   },
