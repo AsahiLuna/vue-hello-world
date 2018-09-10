@@ -1,7 +1,7 @@
 <template>
   <div class="money-example">
-    <h1>Dollar multiple times: {{ multiple }}</h1>
-    <h1>Dollar plus fanc's dollar result: {{ addDifferentCurrencies }}</h1>
+    <div>Dollar multiple times: {{ multiple }}</div>
+    <div>Dollar plus fanc's dollar result: {{ addDifferentCurrencies }}</div>
   </div>
 </template>
 
@@ -39,18 +39,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

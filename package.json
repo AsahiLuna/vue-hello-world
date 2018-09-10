@@ -9,8 +9,10 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
+    "vue-popperjs": "^1.5.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
@@ -22,6 +24,7 @@
     "@vue/cli-service": "^3.0.1",
     "@vue/eslint-config-standard": "^3.0.1",
     "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-plugin-component": "^1.1.1",
     "chai": "^4.1.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
